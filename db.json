@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "name": "Naeem",
+      "id": 1
+    },
+    {
+      "name": "Rachael Dare",
+      "id": 2
+    },
+    {
+      "name": "Jonathan Kohler",
+      "id": 4
+    },
+    {
+      "name": "Terrence Rolfson",
+      "id": 5
+    },
+    {
+      "name": "Roberto Price",
+      "id": 6
+    },
+    {
+      "name": "Carmen Collins II",
+      "id": 7
+    }
+  ],
+  "albums": [
+    {
+      "title": "yah",
+      "id": 1,
+      "userId": 1
+    },
+    {
+      "title": "Electronic Granite Soap",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "title": "Small Granite Pizza",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "title": "Modern Bronze Chicken",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "title": "Small Concrete Cheese",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "title": "Handcrafted Granite Salad",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "title": "Awesome Wooden Hat",
+      "userId": 2,
+      "id": 7
+    },
+    {
+      "title": "Bespoke Granite Sausages",
+      "userId": 2,
+      "id": 8
+    },
+    {
+      "title": "Ergonomic Rubber Towels",
+      "userId": 1,
+      "id": 9
+    }
+  ],
+  "photos": []
+}
