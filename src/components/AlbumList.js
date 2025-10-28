@@ -14,8 +14,8 @@ export function AlbumList({ user }) {
     return (
     <>
         <h3 className="mb-2">Album List for {user.name}</h3>
-        <Button //disabled={isAddUserLoading} 
-        //warning={isAddUserLoading} 
+        <Button disabled={result.isLoading} 
+        warning={result.isLoading} 
         className="mb-4" 
         onClick={handleAddAlbum}
         >

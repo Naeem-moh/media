@@ -1,11 +1,17 @@
 import { faker } from '@faker-js/faker';
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+import { pause } from '../thunks/fetchUsers';
 
 
 export const albumsApi = createApi({
     reducerPath: 'albums',
     baseQuery: fetchBaseQuery({
-        baseUrl:'http://localhost:3005/albums'
+        baseUrl:'http://localhost:3005/albums',
+        fetchFn:async(arg)=>{
+            console.log(arg)
+            await pause(2000);
+            return fetch(arg);
+        }
     }),
     endpoints(builder){
        return { fetchAlbums: builder.query({
